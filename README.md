@@ -8,6 +8,8 @@ A Python-based real-time face detection program that uses your webcam and OpenCV
 
 > Detects faces in real-time through your webcam, draws green rectangles around each face, and shows the live face count on screen.
 
+https://drive.google.com/file/d/12hlqELCR1evcT-lOqBnu04WUhc1G-Uzo/view?usp=sharing
+
 ---
 
 ## 🚀 Features
@@ -98,3 +100,12 @@ opencv-python
 ```
 
 ---
+## ⚠️ Limitations
+
+While this project is efficient for real-time applications, it has some known constraints:
+
+* **ighly optimized for frontal faces; struggles with side profiles or tilted angles.
+* **Accuracy drops in low-light environments or under harsh shadows.
+* **Recognition can fail if features are partially covered by masks, hands, or sunglasses.
+* **Complex background textures may occasionally be misidentified as faces.
+* **Being a Haar Cascade-based system, it is faster on low-end CPUs but less robust than modern Deep Learning models (like MediaPipe or SSD).
