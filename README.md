@@ -104,8 +104,8 @@ opencv-python
 
 While this project is efficient for real-time applications, it has some known constraints:
 
-* **ighly optimized for frontal faces; struggles with side profiles or tilted angles.
-* **Accuracy drops in low-light environments or under harsh shadows.
-* **Recognition can fail if features are partially covered by masks, hands, or sunglasses.
-* **Complex background textures may occasionally be misidentified as faces.
-* **Being a Haar Cascade-based system, it is faster on low-end CPUs but less robust than modern Deep Learning models (like MediaPipe or SSD).
+* Highly optimized for frontal faces; struggles with side profiles or tilted angles.
+* Accuracy drops in low-light environments or under harsh shadows.
+* Recognition can fail if features are partially covered by masks, hands, or sunglasses.
+* Complex background textures may occasionally be misidentified as faces.
+* Being a Haar Cascade-based system, it is faster on low-end CPUs but less robust than modern Deep Learning models (like MediaPipe or SSD).
